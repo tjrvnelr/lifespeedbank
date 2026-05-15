@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign In - LifeSpeed Bank</title>
+    <link rel="stylesheet" href="/client/public/css/signin.css" />
+    <link rel="icon" href="/client/public/icon/myicon.png" type="image/png" />
+  </head>
+
+  <body>
+    <nav class="nav">
+      <header>
+        <h1>LifeSpeed Bank</h1>
+      </header>
+      <div class="nav-links">
+        <a href="/client/public/index.html" class="pushable">
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">home</span>
+        </a>
+
+        <a href="/client/public/pages/signup.html" class="pushable">
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">Sign Up</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <form class="form-container" id="signinForm">
+        <div class="flex-column">
+          <label>Email</label>
+          <div class="inputForm">
+            <svg
+              fill="none"
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M16 12C16 14.2091 14.2091 16 12 16C9.79086 16 8 14.2091 8 12C8 9.79086 9.79086 8 12 8C14.2091 8 16 9.79086 16 12ZM16 12V16.5C16 17.3284 16.6716 18 17.5 18C18.3284 18 19 17.3284 19 16.5V12C19 8.13401 15.866 5 12 5C8.13401 5 5 8.13401 5 12C5 15.866 8.13401 19 12 19C13.5251 19 14.9287 18.5134 16.0751 17.6895"
+                stroke="#3c6e71"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              />
+            </svg>
+            <input
+              id="email"
+              placeholder="Enter your Email"
+              class="input"
+              type="email"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="flex-column">
+          <label>Password</label>
+          <div class="inputForm">
+            <svg
+              height="20"
+              viewBox="0 0 24 24"
+              width="20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g
+                fill="none"
+                stroke="#3c6e71"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+              >
+                <rect height="11" rx="2" ry="2" width="18" x="3" y="11" />
+                <path d="M7 11V7a5 5 0 0 1 10 0v4" />
+              </g>
+            </svg>
+            <input
+              id="password"
+              placeholder="Enter your Password"
+              class="input"
+              type="password"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="flex-row">
+          <div>
+            <input type="checkbox" id="remember" />
+            <label for="remember">Remember me</label>
+          </div>
+          <a href="#" class="span">Forgot password?</a>
+        </div>
+
+        <button type="submit" class="pushable">
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front">Sign In</span>
+        </button>
+
+        <p class="p">
+          Don't have an account? <a href="signup.html" class="span">Sign Up</a>
+        </p>
+
+        <p class="p line">Or With</p>
+
+        <div class="btn-group">
+          <button type="button" class="btn">
+            <img src="https://www.google.com/favicon.ico" width="16" alt="G" />
+            Google
+          </button>
+          <button type="button" class="btn">
+            <img src="https://www.apple.com/favicon.ico" width="16" alt="A" />
+            Apple
+          </button>
+        </div>
+      </form>
+    </main>
+
+    <footer>
+      <p>© 2025 LifeSpeed Bank. All rights reserved.</p>
+      <div style="margin-top: 10px">
+        <a href="#">Terms of Service</a>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Contact Us</a>
+      </div>
+    </footer>
+
+    <script src="/client/public/js/signin.js"></script>
+  </body>
+</html>
