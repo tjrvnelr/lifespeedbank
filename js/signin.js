@@ -16,5 +16,5 @@ document.getElementById('signinForm').addEventListener('submit', function(e) {
     }
 
     alert('Sign-in successful!')
-    window.location.href = '/public/pages/dashboard.html'
+    window.location.href = '/pages/dashboard.html'
 })
